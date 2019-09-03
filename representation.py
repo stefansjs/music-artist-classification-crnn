@@ -9,8 +9,8 @@ import seaborn as sns
 from keras.optimizers import Adam
 from sklearn.manifold import TSNE
 
-import src.models as models
-import src.utility as utility
+import src.music_artist_classification_crnn.models as models
+import src.music_artist_classification_crnn.utility as utility
 
 if __name__ == '__main__':
 

@@ -1,5 +1,5 @@
-import src.utility as utility
-import src.models as models
+import src.music_artist_classification_crnn.utility as utility
+import src.music_artist_classification_crnn.models as models
 
 import os
 import numpy as np

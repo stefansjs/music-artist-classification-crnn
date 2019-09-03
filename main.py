@@ -8,7 +8,7 @@ import os
 import pandas as pd
 import gc
 
-import src.trainer as trainer
+import src.music_artist_classification_crnn.trainer as trainer
 
 if __name__ == '__main__':
 
