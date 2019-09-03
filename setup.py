@@ -10,7 +10,7 @@ if __name__ == '__main__':
           url='https://github.com/ZainNasrullah/music-artist-classification-crnn',
 
           description='Musical Artist Classification with Convolutional Recurrent Neural Networks',
-          long_description=readme_contents.decode('utf-8'),
+          long_description=readme_contents,
           long_description_content_type='text/markdown',
 
           # describe the actual sources to distribute
