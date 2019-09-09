@@ -8,6 +8,8 @@ if __name__ == '__main__':
           version='0.1',
           author='Zain Nasrullah',
           url='https://github.com/ZainNasrullah/music-artist-classification-crnn',
+          maintainer='Stefan Sullivan',
+          maintainer_email='stefan.sullivan@gmail.com',
 
           description='Musical Artist Classification with Convolutional Recurrent Neural Networks',
           long_description=readme_contents,
@@ -19,7 +21,7 @@ if __name__ == '__main__':
 
           # Describe dependencies.
           install_requires=[
-              'Keras',
+              'tensorflow',
               'numpy',
               'scipy',
               'scikit-learn',

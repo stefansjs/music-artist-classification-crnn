@@ -5,11 +5,11 @@ Updated on Nov 14 2017
 @author: Zain
 """
 
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Activation, Reshape, Permute
-from keras.layers import Conv1D, Conv2D, MaxPooling1D, MaxPooling2D
-from keras.layers.normalization import BatchNormalization
-from keras.layers.recurrent import GRU, LSTM
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, Activation, Reshape, Permute
+from tensorflow.keras.layers import Conv1D, Conv2D, MaxPooling1D, MaxPooling2D
+from tensorflow.keras.layers import BatchNormalization
+from tensorflow.keras.layers import GRU, LSTM
 
 
 def CRNN2D(X_shape, nb_classes):
