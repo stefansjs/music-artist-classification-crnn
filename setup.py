@@ -5,7 +5,7 @@ if __name__ == '__main__':
         readme_contents = fh.read()
 
     setup(name='music_artist_classification_crnn',
-          version='0.1-tensorflow',
+          version='0.1+tensorflow',
           author='Zain Nasrullah',
           url='https://github.com/ZainNasrullah/music-artist-classification-crnn',
           maintainer='Stefan Sullivan',
